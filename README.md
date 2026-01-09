@@ -1,32 +1,32 @@
 # Ryze AI – Website Redesign
 
-This project is a frontend redesign of the **Get-Ryze.ai** website, completed as part of a frontend internship assignment.
+This project is a **frontend redesign of the Get-Ryze.ai website**, completed as part of a frontend internship assignment.
 
-The goal was to improve the visual design, layout structure, and overall user experience while keeping the site clean, modern, and easy to navigate.
+The objective was to enhance the **visual design, layout structure, and overall user experience**, while keeping the interface clean, modern, and easy to navigate—similar to real-world SaaS products.
 
 ---
 
 ## 🔗 Live Demo
 
-https://YOUR-VERCEL-LINK.vercel.app
+https://ryze-ai-website-redesign.vercel.app/
 
 ---
 
 ## 📄 Pages Redesigned
 
-- Home Page
-- Features Page
-- Pricing Page
+- Home Page  
+- Features Page  
+- Pricing Page  
 
 ---
 
 ## 🎨 Design Approach
 
-- Clean and modern SaaS-style UI
-- Clear visual hierarchy and spacing
-- Subtle use of colors and backgrounds
-- Fully responsive layout
-- Focus on readability and usability
+- Clean and modern SaaS-style UI  
+- Clear visual hierarchy and spacing  
+- Subtle, consistent use of colors and section backgrounds  
+- Fully responsive across devices  
+- Focus on readability and usability  
 
 ---
 
@@ -41,7 +41,7 @@ https://YOUR-VERCEL-LINK.vercel.app
 
 ## 🚀 Getting Started (Local Setup)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/sai-1-naidu/ryze-ai-website-redesign.git
+### Clone the repository
+```bash
+git clone https://github.com/sai-1-naidu/ryze-ai-website-redesign.git
 ```
