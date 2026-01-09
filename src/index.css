@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+/* ================= GLOBAL ================= */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, sans-serif;
+  color: #1f2937;
+  background-color: #f4f7fb;
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.navbar a {
+  color: #374151 !important;
+  font-weight: 500;
+  margin: 0 0.75rem;
+}
+
+.navbar a:hover {
+  color: #111827 !important;
+}
+
+/* ================= BUTTONS ================= */
+button.btn-primary {
+  background-color: #4f46e5 !important;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+button.btn-primary:hover {
+  background-color: #4338ca !important;
+}
+
+/* ================= SECTION SPACING ================= */
+.section-padding {
+  padding: 6rem 0;
+}
+
+/* ================= HERO ================= */
+.hero {
+  position: relative;
+  background-image: url("./assets/hero.png");
+  background-size: cover;
+  background-position: center;
+  padding: 6rem 0;
+  color: #ffffff;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(17, 24, 39, 0.65);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: #e5e7eb;
+}
+
+/* ================= FEATURES ================= */
+.features-bg {
+  background-color: #eef3fb;
+}
+
+.feature-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 2rem;
+  transition: all 0.35s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(79, 70, 229, 0.15);
+}
+
+.feature-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(79, 70, 229, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  margin-bottom: 1rem;
+}
+
+.feature-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.feature-description {
+  color: #6b7280;
+}
+
+/* ================= HOW IT WORKS ================= */
+.how-it-works-bg {
+  background-color: #f6f1ff;
+}
+
+/* ================= TESTIMONIALS ================= */
+.testimonials-bg {
+  background-color: #f7f7f5;
+}
+
+.testimonial-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 2rem;
+  transition: all 0.35s ease;
+  height: 100%;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.testimonial-quote {
+  color: #374151;
+  line-height: 1.6;
+}
+
+.testimonial-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(79, 70, 229, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial-author {
+  font-weight: 600;
+}
+
+/* ================= FEATURES PAGE ================= */
+.feature-category-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 2rem;
+  border: 1px solid #e5e7eb;
+  transition: all 0.35s ease;
+}
+
+.feature-category-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(79, 70, 229, 0.15);
+}
+
+.feature-category-icon {
+  font-size: 42px;
+}
+
+.feature-list li {
+  display: flex;
+  gap: 0.75rem;
+  color: #374151;
+}
+
+.feature-bullet {
+  color: #4f46e5;
+  font-weight: 700;
+}
+
+/* ================= CTA ================= */
+.features-cta {
+  background: linear-gradient(135deg, #4f46e5, #9333ea);
+  border-radius: 20px;
+  padding: 4rem 2rem;
+  color: #ffffff;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+  background: #1f2937;
+  color: #9ca3af;
+  padding: 2.5rem 0;
+  text-align: center;
+}
+
+.footer a {
+  color: #9ca3af;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.footer a:hover {
+  color: #ffffff;
+}
